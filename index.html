@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telephone</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Telephone</h1>
+      <div class="input-container">
+        <input
+          type="text"
+          id="phoneNumberInput"
+          placeholder="Enter phone number"
+        />
+        <button onclick="addPhoneNumber()">Add Phone Number</button>
+        <button onclick="removePhoneNumber()">Remove Phone Number</button>
+        <button onclick="dialPhoneNumber()">Dial Phone Number</button>
+      </div>
+      <div class="phone-numbers" id="phoneNumbers"></div>
+      <div class="messages" id="messages"></div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
